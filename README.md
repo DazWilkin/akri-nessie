@@ -1,11 +1,12 @@
 # Akri: Nessie protocol
 
-Golang implementation of Microsoft's Akri's [Extensibility]() example "Nessie"
+Golang implementation of Microsoft's Akri's [Extensibility](https://github.com/deislabs/akri/blob/main/docs/extensibility.md) example "Nessie"
 
-This implementation returns an arbitrary []byte rather than taking a URL pointing to a Nessie image.
-
+This implementation returns an arbitrary `[]byte` rather than taking a URL pointing to a Nessie image.
 
 ## Protoc
+
+Requires [`protoc`](https://github.com/protocolbuffers/protobuf/releases) in the path
 
  ```bash
  protoc \
